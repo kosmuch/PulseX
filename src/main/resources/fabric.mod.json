@@ -1,0 +1,22 @@
+json
+
+{
+  "schemaVersion": 1,
+  "id": "pulsex",
+  "version": "${version}",
+  "name": "PulseX",
+  "description": "Dark PvP visuals and animated client HUD",
+  "authors": ["PulseX"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.pulsex.PulseX"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
